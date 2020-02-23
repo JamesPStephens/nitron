@@ -26,7 +26,10 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    align-items: center;
+    height: calc(100% - 66px);
+    margin-top: 66px;
+    background-color: #3366ff;
 }
 .home_jumbotron {
     display: flex;
@@ -38,7 +41,7 @@ html {
     background-color: #3366ff !important;
 }
 .jumbotron-img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
