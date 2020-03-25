@@ -7,14 +7,14 @@
 html {
     scroll-behavior: smooth;
     font-family: 'avent_garde' !important;
+    font-size: 16px;
 }
-  
+.typed-cursor  {
+    display: none;
+}
+
 .navbar-container {
     background-color: #fafafa;
-}
-.home {
-    width: 100vw;
-    height: 100vh;
 }
 .nav-img {
     width: 50px;
@@ -22,14 +22,22 @@ html {
     padding: 8px;
     box-sizing: border-box;
 }
+/* Home */
+.home {
+    margin-top: 66px;
+    height: 100vh;
+}
 .home_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100% - 66px);
-    margin-top: 66px;
+    height: 100%;
     background-color: #3366ff;
+}
+.home_sub {
+    margin-bottom: 25px;
+    animation: fadein 3s;
 }
 .home_jumbotron {
     display: flex;
@@ -44,32 +52,106 @@ html {
     width: 50%;
     height: auto;
 }
-
 .services {
-    width: 100vw;
-    height: 60vh;
-    background-color: #fafafa;
-}
-.services_container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    background-color: white;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.whoweare {
+    width: 50%;
+    opacity: 0;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.ourservices {
+   width: 50%;
+   opacity: 0;
+   padding: 12px;
+   box-sizing: border-box;
 }
 
+/* Clients */
+.clients {
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    background-color: #fafafa;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.testimonial {
+    width: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.ourword {
+    width: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.user_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.user_header_title {
+    margin: 0px;
+}
+.user_header_logo {
+    width: 30px;
+    height: auto;
+    margin-right: 8px;
+}
+.user_body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.user_details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user_name {
+    margin-left: 8px;
+}
+.user_icon {
+    font-size: 1.75rem;
+    width: 20px;
+}
+/* Contact */
 .contact {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
+    min-height: 75vh;
     background-color: #3366ff;
 }
-.contact_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.banner {
+    width: 50%;
+    padding: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.form {
+    width: 50%;
+    padding: 12px;
+    text-align: left;
+    box-sizing: border-box;
     background-color: white;
+}
+form {
+    padding: 12px;
+    box-sizing: border-box;
 }
 
 .progress-bar {

@@ -1,0 +1,33 @@
+.animate_top {
+    -webkit-animation: slidetop 1200ms forwards;
+    animation: slidetop 1200ms forwards;
+}
+.animate_right {
+    -webkit-animation: slideright 1200ms forwards;
+    animation: slideright 1200ms forwards;
+}
+.animate_left {
+    -webkit-animation: slideleft 1200ms forwards;
+    animation: slideleft 1200ms forwards;
+}
+.animate_fadein {
+    -webkit-animation: fadein 600ms forwards;
+    animation: fadein 600ms forwards;
+}
+@keyframes slideright {
+    from { transform: translate(-100%); opacity: 0;}
+    to { transform: translate(0%); opacity: 1;}
+}
+@keyframes slideleft {
+    from { transform: translate(100%); opacity: 0;}
+    to { transform: translate(0%); opacity: 1;}
+}
+
+@keyframes slidetop {
+    from { transform: translateY(-100%); opacity: 0;}
+    to { transform: translate(0%); opacity: 1;}
+}
+@keyframes fadein {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}

@@ -1,0 +1,24 @@
+@media (max-width: 425px) {
+    /* About/Services */
+    .whoweare {
+        width: 100%;
+    }
+    .ourservices {
+       width: 100%;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .ourword {
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .jumbotron-img {
+        width: 100%;
+    }
+}
